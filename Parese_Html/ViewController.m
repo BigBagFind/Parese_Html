@@ -36,10 +36,14 @@
     NSArray *elements = [xpathParser searchWithXPathQuery:@"//img[@src]"];
     // Access the first cell
     TFHppleElement *element = [elements objectAtIndex:0];
-    // Get the text within the cell tag
-    //NSString *content = [element content];
-    NSLog(@"%@",element);
-    NSLog(@"%@",[elements objectAtIndex:1]);
+//    // Get the text within the cell tag
+//    //NSString *content = [element content];
+    NSLog(@"%@",element.attributes);
+    for (TFHppleElement *element in elements) {
+        NSString *urlString = [element.attributes objectForKey:@"src"];
+        NSLog(@"%@",urlString);
+    }
+ //   NSLog(@"%@",[elements objectAtIndex:1]);
    // [xpathParser release];
     //[data release];
     
