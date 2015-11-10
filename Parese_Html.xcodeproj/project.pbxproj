@@ -15,6 +15,13 @@
 		8150631E1BF1E4DC00A7E633 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8150631C1BF1E4DC00A7E633 /* LaunchScreen.storyboard */; };
 		815063291BF1E4DC00A7E633 /* Parese_HtmlTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 815063281BF1E4DC00A7E633 /* Parese_HtmlTests.m */; };
 		815063341BF1E4DC00A7E633 /* Parese_HtmlUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 815063331BF1E4DC00A7E633 /* Parese_HtmlUITests.m */; };
+		815063491BF1E59900A7E633 /* AnalysisHtml.m in Sources */ = {isa = PBXBuildFile; fileRef = 815063421BF1E59900A7E633 /* AnalysisHtml.m */; };
+		8150634A1BF1E59900A7E633 /* TFHpple.m in Sources */ = {isa = PBXBuildFile; fileRef = 815063441BF1E59900A7E633 /* TFHpple.m */; };
+		8150634B1BF1E59900A7E633 /* TFHppleElement.m in Sources */ = {isa = PBXBuildFile; fileRef = 815063461BF1E59900A7E633 /* TFHppleElement.m */; };
+		8150634C1BF1E59900A7E633 /* XPathQuery.m in Sources */ = {isa = PBXBuildFile; fileRef = 815063481BF1E59900A7E633 /* XPathQuery.m */; };
+		8150634E1BF1E5F400A7E633 /* libxml2.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 8150634D1BF1E5F400A7E633 /* libxml2.tbd */; };
+		815063501BF1E6F000A7E633 /* example.html in Resources */ = {isa = PBXBuildFile; fileRef = 8150634F1BF1E6F000A7E633 /* example.html */; };
+		815063521BF1ED5800A7E633 /* File.html in Resources */ = {isa = PBXBuildFile; fileRef = 815063511BF1ED5800A7E633 /* File.html */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +58,17 @@
 		8150632F1BF1E4DC00A7E633 /* Parese_HtmlUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Parese_HtmlUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		815063331BF1E4DC00A7E633 /* Parese_HtmlUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Parese_HtmlUITests.m; sourceTree = "<group>"; };
 		815063351BF1E4DC00A7E633 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		815063411BF1E59900A7E633 /* AnalysisHtml.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AnalysisHtml.h; sourceTree = "<group>"; };
+		815063421BF1E59900A7E633 /* AnalysisHtml.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AnalysisHtml.m; sourceTree = "<group>"; };
+		815063431BF1E59900A7E633 /* TFHpple.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TFHpple.h; sourceTree = "<group>"; };
+		815063441BF1E59900A7E633 /* TFHpple.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TFHpple.m; sourceTree = "<group>"; };
+		815063451BF1E59900A7E633 /* TFHppleElement.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TFHppleElement.h; sourceTree = "<group>"; };
+		815063461BF1E59900A7E633 /* TFHppleElement.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TFHppleElement.m; sourceTree = "<group>"; };
+		815063471BF1E59900A7E633 /* XPathQuery.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XPathQuery.h; sourceTree = "<group>"; };
+		815063481BF1E59900A7E633 /* XPathQuery.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XPathQuery.m; sourceTree = "<group>"; };
+		8150634D1BF1E5F400A7E633 /* libxml2.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libxml2.tbd; path = usr/lib/libxml2.tbd; sourceTree = SDKROOT; };
+		8150634F1BF1E6F000A7E633 /* example.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = example.html; sourceTree = "<group>"; };
+		815063511BF1ED5800A7E633 /* File.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = File.html; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8150634E1BF1E5F400A7E633 /* libxml2.tbd in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +100,7 @@
 		815063021BF1E4DC00A7E633 = {
 			isa = PBXGroup;
 			children = (
+				8150634D1BF1E5F400A7E633 /* libxml2.tbd */,
 				8150630D1BF1E4DC00A7E633 /* Parese_Html */,
 				815063271BF1E4DC00A7E633 /* Parese_HtmlTests */,
 				815063321BF1E4DC00A7E633 /* Parese_HtmlUITests */,
@@ -105,6 +125,16 @@
 				815063121BF1E4DC00A7E633 /* AppDelegate.m */,
 				815063141BF1E4DC00A7E633 /* ViewController.h */,
 				815063151BF1E4DC00A7E633 /* ViewController.m */,
+				815063411BF1E59900A7E633 /* AnalysisHtml.h */,
+				815063421BF1E59900A7E633 /* AnalysisHtml.m */,
+				815063431BF1E59900A7E633 /* TFHpple.h */,
+				815063441BF1E59900A7E633 /* TFHpple.m */,
+				815063451BF1E59900A7E633 /* TFHppleElement.h */,
+				815063461BF1E59900A7E633 /* TFHppleElement.m */,
+				815063471BF1E59900A7E633 /* XPathQuery.h */,
+				815063481BF1E59900A7E633 /* XPathQuery.m */,
+				8150634F1BF1E6F000A7E633 /* example.html */,
+				815063511BF1ED5800A7E633 /* File.html */,
 				815063171BF1E4DC00A7E633 /* Main.storyboard */,
 				8150631A1BF1E4DC00A7E633 /* Assets.xcassets */,
 				8150631C1BF1E4DC00A7E633 /* LaunchScreen.storyboard */,
@@ -246,9 +276,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				815063521BF1ED5800A7E633 /* File.html in Resources */,
 				8150631E1BF1E4DC00A7E633 /* LaunchScreen.storyboard in Resources */,
 				8150631B1BF1E4DC00A7E633 /* Assets.xcassets in Resources */,
 				815063191BF1E4DC00A7E633 /* Main.storyboard in Resources */,
+				815063501BF1E6F000A7E633 /* example.html in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -273,8 +305,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8150634B1BF1E59900A7E633 /* TFHppleElement.m in Sources */,
+				8150634C1BF1E59900A7E633 /* XPathQuery.m in Sources */,
+				8150634A1BF1E59900A7E633 /* TFHpple.m in Sources */,
 				815063161BF1E4DC00A7E633 /* ViewController.m in Sources */,
 				815063131BF1E4DC00A7E633 /* AppDelegate.m in Sources */,
+				815063491BF1E59900A7E633 /* AnalysisHtml.m in Sources */,
 				815063101BF1E4DC00A7E633 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -416,6 +452,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				HEADER_SEARCH_PATHS = "${SDKROOT}/usr/include/libxml2";
 				INFOPLIST_FILE = Parese_Html/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "----.Parese-Html";
@@ -427,6 +464,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				HEADER_SEARCH_PATHS = "${SDKROOT}/usr/include/libxml2";
 				INFOPLIST_FILE = Parese_Html/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "----.Parese-Html";
